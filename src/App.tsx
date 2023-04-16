@@ -1,5 +1,13 @@
+import { GlobalStyle } from "./styles/Global";
+import LandingPage from "./pages/LandingPage";
+
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <GlobalStyle />
+      <LandingPage />
+    </>
+  );
 }
 
 export default App;
