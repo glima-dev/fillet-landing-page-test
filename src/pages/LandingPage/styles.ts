@@ -16,4 +16,29 @@ export const StyledBackGround = styled.div`
     height: max-content;
     width: 100%;
   }
+
+  & > main {
+    width: 100%;
+    height: max-content;
+
+    & > section:first-child {
+      background-image: url(${bg02});
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: right;
+      min-height: 768px;
+      height: max-content;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    @media (min-width: 500px) {
+      & > section:first-child {
+        align-items: baseline;
+      }
+    }
+  }
 `;
