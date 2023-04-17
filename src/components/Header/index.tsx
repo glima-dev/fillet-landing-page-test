@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 const Header = () => {
   const [switchBtIcon, setSwitchBtIcon] = useState(false);
-  const [navIsOpen, setNavIsOpen] = useState(true);
+  const [navIsOpen, setNavIsOpen] = useState(false);
   const [navAnimation, setNavAnimation] = useState(true);
 
   useEffect(() => {
