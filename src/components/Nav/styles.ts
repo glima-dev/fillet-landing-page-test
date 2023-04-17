@@ -18,6 +18,7 @@ export const StyledNav = styled.nav<iStyledNavProps>`
   align-items: center;
   justify-content: center;
   gap: 4px;
+  transition: 0.5s ease-in-out;
   animation: ${({ isOpen }) =>
     isOpen
       ? `navInAnimation 0.5s ease-in-out forwards`

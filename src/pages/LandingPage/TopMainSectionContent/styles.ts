@@ -8,6 +8,7 @@ export const StyledTopMainSectionContent = styled.div`
   align-items: center;
   justify-content: center;
   gap: 32px;
+  transition: 0.5s ease-in-out;
 
   & > h2 {
     font-size: var(--heading-3);

@@ -83,7 +83,7 @@ export const StyledInfoCardsSection = styled.section`
 
   @media (min-width: 651px) {
     & .bgFrame1 > .bgElips1 {
-      top: 30%;
+      top: 22%;
     }
   }
 
@@ -113,6 +113,7 @@ export const StyledInfoList = styled.ul`
   grid-template-columns: repeat(1, 310px);
   margin: 80px auto 0;
   gap: 56px;
+  transition: 0.5s ease-in-out;
 
   @media (min-width: 650px) {
     grid-template-columns: repeat(2, 305px);
