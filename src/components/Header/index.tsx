@@ -5,7 +5,7 @@ import { CgMenu, CgClose } from "react-icons/cg";
 import { useEffect, useState } from "react";
 
 const Header = () => {
-  const [switchBtIcon, setSwitchBtIcon] = useState(false);
+  const [switchBtIcon, setSwitchBtIcon] = useState(true);
   const [navIsOpen, setNavIsOpen] = useState(false);
   const [navAnimation, setNavAnimation] = useState(true);
 
