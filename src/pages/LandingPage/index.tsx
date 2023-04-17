@@ -3,6 +3,7 @@ import { StyledBackGround } from "./styles";
 import Footer from "../../components/Footer";
 import TopSection from "./TopSection";
 import TopMainSectionContent from "./TopMainSectionContent";
+import BottonSection from "./BottonSection";
 
 const LandingPage = () => {
   return (
@@ -15,6 +16,8 @@ const LandingPage = () => {
         <section>
           <TopMainSectionContent />
         </section>
+
+        <BottonSection />
       </main>
       <Footer />
     </StyledBackGround>
