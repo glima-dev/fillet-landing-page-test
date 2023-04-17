@@ -4,6 +4,7 @@ import Footer from "../../components/Footer";
 import TopSection from "./TopSection";
 import TopMainSectionContent from "./TopMainSectionContent";
 import BottonSection from "./BottonSection";
+import InfoCardsSection from "./InfoCardsSection";
 
 const LandingPage = () => {
   return (
@@ -16,7 +17,7 @@ const LandingPage = () => {
         <section>
           <TopMainSectionContent />
         </section>
-
+        <InfoCardsSection />
         <BottonSection />
       </main>
       <Footer />
