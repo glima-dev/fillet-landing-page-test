@@ -121,10 +121,7 @@ export const StyledInfoList = styled.ul`
   }
 
   @media (min-width: 1300px) {
-    margin: 80 auto;
-  }
-
-  @media (min-width: 1300px) {
+    margin: 0 auto;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
   }
